@@ -85,6 +85,74 @@ body {
     max-width: 100%;
     height: auto;
 }
+.drive{
+    width: 574px;
+    height: auto;
+    position: absolute;
+    top:450px;
+    left:250px;
+}
+.drive p{
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+/* Медиазапрос для средних экранов */
+@media (max-width: 1620px) {
+    .drive {
+        top: 425px;
+        left: 225px;
+        font-size: 23px;
+    }
+    .drive p{
+        font-size: 23px;
+    }
+    .drive img{
+        width: 350px;
+    }
+}
+@media (max-width: 1350px) {
+    .drive {
+        top: 350px;
+        left: 200px;
+    }
+    .drive p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .drive img{
+        width: 300px;
+    }
+}
+/* Медиазапрос для маленьких экранов */
+@media (max-width: 1024px) {
+    .drive {
+        top: 250px;
+        left: 110px;
+    }
+    .drive p{
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    .drive img{
+        width: 250px;
+    }
+}
+
+/* Медиазапрос для очень маленьких экранов */
+@media (max-width: 780px) {
+    .drive {
+        top: 200px;
+        left: 20px;
+    }
+    .drive p{
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .drive img{
+        width: 125px;
+    }
+}
 
 .container {
     max-width: 1480px;
