@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KinoBase</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<div class="backg">
+    <nav class="navigation">
+        <div class="union">
+            <svg class="burger" width="45" height="45" viewBox="0 0 45 45" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path
+                        d="M39.375 22.5C39.375 22.873 39.2268 23.2306 38.9631 23.4944C38.6994 23.7581 38.3417 23.9062 37.9688 23.9062H7.03125C6.65829 23.9062 6.3006 23.7581 6.03688 23.4944C5.77316 23.2306 5.625 22.873 5.625 22.5C5.625 22.127 5.77316 21.7694 6.03688 21.5056C6.3006 21.2419 6.65829 21.0938 7.03125 21.0938H37.9688C38.3417 21.0938 38.6994 21.2419 38.9631 21.5056C39.2268 21.7694 39.375 22.127 39.375 22.5ZM7.03125 12.6562H37.9688C38.3417 12.6562 38.6994 12.5081 38.9631 12.2444C39.2268 11.9806 39.375 11.623 39.375 11.25C39.375 10.877 39.2268 10.5194 38.9631 10.2556C38.6994 9.99191 38.3417 9.84375 37.9688 9.84375H7.03125C6.65829 9.84375 6.3006 9.99191 6.03688 10.2556C5.77316 10.5194 5.625 10.877 5.625 11.25C5.625 11.623 5.77316 11.9806 6.03688 12.2444C6.3006 12.5081 6.65829 12.6562 7.03125 12.6562ZM37.9688 32.3438H7.03125C6.65829 32.3438 6.3006 32.4919 6.03688 32.7556C5.77316 33.0194 5.625 33.377 5.625 33.75C5.625 34.123 5.77316 34.4806 6.03688 34.7444C6.3006 35.0081 6.65829 35.1562 7.03125 35.1562H37.9688C38.3417 35.1562 38.6994 35.0081 38.9631 34.7444C39.2268 34.4806 39.375 34.123 39.375 33.75C39.375 33.377 39.2268 33.0194 38.9631 32.7556C38.6994 32.4919 38.3417 32.3438 37.9688 32.3438Z"
+                        fill="white"/>
+            </svg>
+
+            <input placeholder="Поиск..." class="navSearch"/>
+        </div>
+        <div class="kinoBase">
+            Kinobase
+        </div>
+        <div class="union">
+            <div class="singIn">
+                <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                            d="M24.9012 23.4949L17.8699 30.5262C17.7393 30.6568 17.5842 30.7605 17.4134 30.8312C17.2427 30.9019 17.0598 30.9383 16.875 30.9383C16.6902 30.9383 16.5073 30.9019 16.3366 30.8312C16.1658 30.7605 16.0107 30.6568 15.8801 30.5262C15.7494 30.3955 15.6458 30.2404 15.5751 30.0697C15.5044 29.899 15.468 29.716 15.468 29.5312C15.468 29.3465 15.5044 29.1635 15.5751 28.9928C15.6458 28.8221 15.7494 28.667 15.8801 28.5363L20.5119 23.9062H4.21875C3.84579 23.9062 3.4881 23.7581 3.22438 23.4944C2.96066 23.2306 2.8125 22.873 2.8125 22.5C2.8125 22.127 2.96066 21.7694 3.22438 21.5056C3.4881 21.2419 3.84579 21.0938 4.21875 21.0938H20.5119L15.8801 16.4637C15.6162 16.1998 15.468 15.8419 15.468 15.4688C15.468 15.0956 15.6162 14.7377 15.8801 14.4738C16.1439 14.21 16.5018 14.0617 16.875 14.0617C17.2482 14.0617 17.6061 14.21 17.8699 14.4738L24.9012 21.5051C25.0319 21.6357 25.1356 21.7908 25.2064 21.9615C25.2772 22.1322 25.3136 22.3152 25.3136 22.5C25.3136 22.6848 25.2772 22.8678 25.2064 23.0385C25.1356 23.2092 25.0319 23.3643 24.9012 23.4949ZM33.75 5.625H23.9062C23.5333 5.625 23.1756 5.77316 22.9119 6.03688C22.6482 6.3006 22.5 6.65829 22.5 7.03125C22.5 7.40421 22.6482 7.7619 22.9119 8.02562C23.1756 8.28934 23.5333 8.4375 23.9062 8.4375H33.75V36.5625H23.9062C23.5333 36.5625 23.1756 36.7107 22.9119 36.9744C22.6482 37.2381 22.5 37.5958 22.5 37.9688C22.5 38.3417 22.6482 38.6994 22.9119 38.9631C23.1756 39.2268 23.5333 39.375 23.9062 39.375H33.75C34.4959 39.375 35.2113 39.0787 35.7387 38.5512C36.2662 38.0238 36.5625 37.3084 36.5625 36.5625V8.4375C36.5625 7.69158 36.2662 6.97621 35.7387 6.44876C35.2113 5.92132 34.4959 5.625 33.75 5.625Z"
+                            fill="white"/>
+                </svg>
+            </div>
+            <div class="register">
+                Регистрация
+            </div>
+        </div>
+    </nav>
+</div>
+
+<img class="mainImg" src="img/mainImg.png" alt="main film">
+
+<div class="blums">
+    <img src="img/blums.svg" alt="">
+</div>
+
+<div class="container">
+    <h1>Новинки</h1>
+    <div class="row">
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Подземелья и драконы: Честь среди воров</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Популярно сегодня</h1>
+    <div class="row">
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Подземелья и драконы: Честь среди воров</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+        <div class="item">
+            <img src="img/Frame 5.jpg" alt="123s">
+            <h4>Неприличные деньги</h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Топ по жанрам</h1>
+    <div class="cols">
+        <div class="genre">
+            <h2>Комедия</h2>
+            <div class="movie movie-flex">
+                <div class="first"></div>
+                <div>
+                    <img src="img/maska.jpg" alt="Маска" >    
+                    <p>Маска</p>   
+                </div>      
+            </div>   
+            <div class="movie movie-flex">
+                <div class="second"></div>
+                <div>
+                    <img src="img/maska.jpg" alt="Маска" >    
+                    <p>Маска</p>   
+                </div>  
+            </div>
+            <div class="movie movie-flex">
+                <div class="third"></div>
+                <div>
+                    <img src="img/maska.jpg" alt="Маска" >    
+                    <p>Маска</p>   
+                </div>  
+            </div>
+        </div>
+        <div class="genre">
+            <h2>Драма</h2>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+        </div>
+        <div class="genre">
+            <h2>Хоррор</h2>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+        </div>
+        <div class="genre">
+            <h2>Приключение</h2>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+            <div class="movie">
+                <img src="img/maska.jpg" alt="Маска">
+                <p>Маска</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+        <h2>О нас</h2>
+        <h2>Поддержка</h2>
+        <h2>Контакты</h2>
+        <div>
+            <img src="img/tg.svg" alt="">
+            <img src="img/vk.svg" alt="">
+        </div>
+</footer>
+
+</body>
+</html>

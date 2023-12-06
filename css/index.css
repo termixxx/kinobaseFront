@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #211351;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+.backg {
+    background-color: #391F90;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    text-align: center;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kinoBase {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.union {
+    display: flex;
+    align-items: center;
+}
+
+.register {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.singIn {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.burger {
+    cursor: pointer;
+    margin-right: 37px;
+}
+
+.navSearch {
+    width: 200px;
+    height: 47px;
+    background: #211351;
+    border: 0 solid;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+.navSearch:focus {
+    outline: 0;
+}
+
+.mainImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.container img:not(.exclude) {
+    border-radius: 22px;
+    border: 1px solid black;
+    box-shadow: 0px 3px 33px rgba(255, 255, 255, 0.15);
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.item h4 {
+    position: relative;
+    text-align: center;
+    width: 220px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.row .item img{
+    cursor: pointer;
+    max-width: 220px;
+    width:100% ;
+    height: auto;
+}
+.row .item {
+    margin-left: 20px;
+}
+
+.blums img {
+    max-width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+.genre {
+    width: calc(25% - 1px); /* вычитаем 1px из-за границы */
+    border-right: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.genre:first-child {
+    width: calc(40% - 1px); /* вычитаем 1px из-за границы */
+    border-right: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.genre:last-child {
+    border-right: none; /* У последней колонки нет правой границы */
+}
+
+.movie-flex{
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+}
+
+.movie img {
+    max-width: 145px;
+    width: 100%;
+    cursor: pointer;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.movie .first {
+    height:  195px;
+    width: 113px;
+}
+.movie .first::before{
+    display: flex;
+    flex-wrap: nowrap;
+    content: ' ';
+    background-image: url('../img/1.svg');
+    display: block;
+    background-size: cover;
+    background-position:center;
+    height:  100%;
+    width: 100%;
+}
+.movie .second {
+    height:  195px;
+    width: 113px;
+}
+.movie .second::before{
+    display: flex;
+    flex-wrap: nowrap;
+    content: '';
+    background-image: url('../img/2.svg');
+    display: block;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:  100%;
+    width: 100%;
+}
+.movie .third {
+    height:  195px;
+    width: 113px;
+}
+.movie .third::before{
+    display: flex;
+    flex-wrap: nowrap;
+    content: '';
+    background-image: url('../img/3.svg');
+    display: block;
+    background-size: 100% 100%;
+    background-position:center;
+    height:  100%;
+    width: 100%;
+}
+
+.movie p {
+    cursor: pointer;
+    max-width: 145px;
+    width: 100%;
+    margin:0  auto;
+    font-size: 19px;
+}
+
+
+.cols {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+
+footer{
+    margin-top: 60px;
+    text-align: center;
+    max-height: 100vw;
+    height: 300px;
+    background-color: #391F90;
+}
+footer h2:first-child{
+    padding-top: 30px;
+}
+footer h2{
+    cursor: pointer;
+    color: white;
+    margin-bottom: 30px;
+}
+footer img{
+    cursor: pointer;
+}
+footer img:first-child{
+    margin-right:45px ;
+}
