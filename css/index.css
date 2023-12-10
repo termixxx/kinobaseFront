@@ -278,7 +278,7 @@ body {
 .movie .first::before {
     flex-wrap: nowrap;
     content: ' ';
-    background-image: url('./img/index/svg/1.svg');
+    background-image: url('/img/index/svg/first.svg');
     display: block;
     background-position: center;
     height: 100%;
@@ -294,7 +294,7 @@ body {
 .movie .second::before {
     flex-wrap: nowrap;
     content: '';
-    background-image: url('./img/index/svg/2.svg');
+    background-image: url('/img/index/svg/second.svg');
     display: block;
     background-position: center;
     background-repeat: no-repeat;
@@ -311,7 +311,7 @@ body {
 
 .movie .third::before {
     content: '';
-    background-image: url('./img/index/svg/3.svg');
+    background-image: url('/img/index/svg/third.svg');
     display: block;
     background-size: 100% 100%;
     background-position: center;
