@@ -7,7 +7,7 @@ function popupOpen(currentPopup) {
         currentPopup.classList.add('open');
         unlock = false;
         currentPopup.addEventListener('click', function (e) {
-            if (!e.target.closest('. opup__content')) {
+            if (!e.target.closest('.popup__content')) {
                 popupClose(e.target.closest('.popup'));
 
             }
