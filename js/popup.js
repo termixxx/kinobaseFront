@@ -27,6 +27,7 @@ for (let i = 0; i < popupLinks.length; i++) {
 
 const popupCloseIcon = document.querySelectorAll('.close-popup');
 
+
 function popupClose(element) {
     element.classList.remove('open');
     unlock = true;
@@ -41,3 +42,10 @@ if (popupCloseIcon.length > 0) {
         })
     }
 }
+const alreadyRegister = document.getElementById('alreadyRegister');
+alreadyRegister.addEventListener('click', (e) => {
+    popupClose(alreadyRegister.closest('.popup'));
+    setTimeout(() => {
+        popupOpen(document.getElementById('login'));
+    }, 350);
+})
